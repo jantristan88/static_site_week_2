@@ -12,3 +12,4 @@ open('FeatureProject.html', 'w+').write(FeaturedProject_html)
 Publication = open('content/Publication.html').read()
 Publication_html = top_template + content + bottom_template
 open('Publication.html', 'w+').write(Publication_html)
+
